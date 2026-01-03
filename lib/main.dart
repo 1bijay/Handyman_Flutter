@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:handyman_demo/cleaning.dart';
+
 
 import 'home_screen.dart';
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
 
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: HomeScreen(),
+      home: Cleaning(),
     );
   }
 }

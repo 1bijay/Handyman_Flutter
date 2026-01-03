@@ -182,24 +182,7 @@ Widget _buildSectionHeader(String title, VoidCallback onTap) {
   );
 }
 
-// Widget _buildCategoriesList(){
-//   final categories=[
-//     {'name':'cleaning','icon':Icons.cleaning_services_outlined,
-//       'color':const Color(0xFFFFF3F0)
-//     },
-//     {'name':'plumbing','icon':Icons.plumbing,'color':Color(0xFFEFF3FF)},
-//     {'name':'Repairing','icon': Icons.build_outlined, 'color': const Color(0xFFFFF8E5)},
-//     {'name':'laundry','icon': Icons.local_laundry_service_outlined, 'color': const Color(0xFFEFFFF4)}
-//   ];
-//   return Row(
-//     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//     children: [
-//       categories.map(()cat
-//           return Column()
-//       )
-//     ],
-//   );
-// }
+
 Widget _buildCategoriesList() {
   final categories = [
     {
