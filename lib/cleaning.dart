@@ -45,17 +45,48 @@ class _CleaningState extends State<Cleaning> {
                   ),
 
                   // Search Circle Icon
+                  // Container(
+                  //   width: 40,
+                  //   height: 40,
+                  //   decoration: BoxDecoration(
+                  //     borderRadius: BorderRadius.circular(50),
+                  //     color: Colors.white,
+                  //   ),
+                  //   child: Center(
+                  //     // child: Icon(Icons.search, size: 20),
+                  //     child: TextField(
+                  //
+                  //     ),
+                  //     // child: IconButton(onPressed: (){}, icon:Icon(Icons.search,size: 20,)),
+                  //   ),
+                  // ),
                   Container(
-                    width: 40,
+                    width: 80,
                     height: 40,
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
                       color: Colors.white,
                     ),
-                    child: Center(
-                      child: Icon(Icons.search, size: 20),
+                    child: TextField(
+                      textAlignVertical: TextAlignVertical.center,
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        contentPadding: EdgeInsets.zero,
+
+                        suffixIcon: IconButton(
+                          onPressed: () {
+
+                          },
+                          icon: Icon(
+                            Icons.search,
+                            size: 30,
+                          ),
+                        ),
+                      ),
                     ),
                   ),
+
+
                 ],
               ),
 
